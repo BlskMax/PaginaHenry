@@ -1,0 +1,284 @@
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+    margin: 20px;
+  }
+
+  #titulo {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #titulo h1 {
+    margin-bottom: .5em;
+  }
+
+  #instrucciones {
+    margin: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3em;
+    
+  }
+
+button {
+  background: none;
+  border: none;
+}
+
+ .nominado {
+    margin: 1.7em
+    
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  margin: 2em;
+}
+
+#Nominados {
+
+  width: 85vw;
+  margin: auto;
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly ;
+  align-items: center;
+  margin-bottom: 1.5em;
+} 
+
+.nom {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#Alan {
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.alan-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.alan-cont {
+  width: 65vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.alan-cont h2 {
+font-size: 3em;
+margin-bottom:.6em;
+}
+
+.alan-cont p{
+font-size: 1.2em;
+margin: .2em;
+margin-bottom: 1.5em;
+}
+
+#Spiderman {
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.spider-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.spider-cont {
+  width: 65vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.spider-cont h2 {
+font-size: 3em;
+margin-bottom:.6em;
+}
+
+.spider-cont p{
+font-size: 1.2em;
+margin: .2em;
+margin-bottom: 1.5em;
+}
+
+#Mario {
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mario-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.mario-cont {
+  width: 65vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.mario-cont h2 {
+font-size: 3em;
+margin-bottom:.6em;
+}
+
+.mario-cont p{
+font-size: 1.2em;
+margin: .2em;
+margin-bottom: 1.5em;
+}
+
+#Resident {
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.resident-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.resident-cont {
+  width: 65vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.resident-cont h2 {
+font-size: 3em;
+margin-bottom:.6em;
+}
+
+.resident-cont p{
+font-size: 1.2em;
+margin: .2em;
+margin-bottom: 1.5em;
+}
+
+#Baldurs {
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.baldurs-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.baldurs-cont {
+  width: 65vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.baldurs-cont h2 {
+font-size: 3em;
+margin-bottom:.6em;
+}
+
+.baldurs-cont p{
+font-size: 1.2em;
+margin: .2em;
+margin-bottom: 1.5em;
+}
+
+#Zelda {
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.zelda-img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.zelda-cont {
+  width: 65vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.zelda-cont h2 {
+font-size: 3em;
+margin-bottom:.6em;
+}
+
+.zelda-cont p{
+font-size: 1.2em;
+margin: .2em;
+margin-bottom: 1.5em;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+
+}
+
+#footer:hover {
+  color: blue;
+
+}
